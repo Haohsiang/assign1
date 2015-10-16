@@ -18,7 +18,7 @@ void setup () {
   
   //enemy 
   enemy = loadImage("img/enemy.png");
-  xEnemy = floor(random(640));  // extension does not matter for enemy in axis x
+  xEnemy = 0;  // the enemy will move from the leftest side
   yEnemy = floor(random(420));  // let the picture inside the screen
 
   //fighter
